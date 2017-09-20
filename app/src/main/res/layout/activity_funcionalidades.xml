@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.usjt.arqdesis.projetopredial.Funcionalidades">
+
+    <Button
+        android:id="@+id/CadastrarUsuario"
+        android:layout_width="242dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/Cadastrar_Empresa"
+        android:layout_alignStart="@+id/Cadastrar_Empresa"
+        android:layout_marginBottom="52dp"
+        android:text="Cadastrar Usuario"
+        android:enabled="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/Cadastrar_Empresa"
+        android:layout_width="242dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/ArquivoAcesso"
+        android:layout_alignStart="@+id/ArquivoAcesso"
+        android:layout_marginBottom="40dp"
+        android:text="Cadastrar Empresa"
+        android:enabled="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/ArquivoAcesso"
+        android:layout_width="242dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/ReconfigTemp"
+        android:layout_alignStart="@+id/ReconfigTemp"
+        android:layout_marginBottom="43dp"
+        android:enabled="false"
+        android:text="Gerar Arquivo de Acesso"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/ReconfigTemp"
+        android:layout_width="242dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:text="Reconfigurar Temperatura"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="374dp"
+        android:enabled="false"
+        />
+
+</RelativeLayout>
